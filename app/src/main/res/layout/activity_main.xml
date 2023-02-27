@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--Edit text to enter course name-->
+    <EditText
+        android:id="@+id/idEdtFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="First Name" />
+
+    <!--edit text to enter course duration-->
+    <EditText
+        android:id="@+id/idEdtSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Surname" />
+
+    <!--edit text to display course tracks-->
+    <EditText
+        android:id="@+id/idEdtIDNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="ID NO" />
+
+    <EditText
+        android:id="@+id/idEdtPhoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Phone Number" />
+
+    <!--button for adding new course-->
+    <Button
+        android:id="@+id/idBtnAddUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Add Details"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/idBtnReadUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="View Details"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/idBtnChangeDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Change Details"
+        android:textAllCaps="false" />
+</LinearLayout>
